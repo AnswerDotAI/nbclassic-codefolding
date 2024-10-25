@@ -26,7 +26,7 @@ define([
 
     // define default config parameter values
     var params = {
-        codefolding_hotkey : 'Alt-f',
+        codefolding_hotkey : 'Alt-a',
         init_delay : 1000
     };
 

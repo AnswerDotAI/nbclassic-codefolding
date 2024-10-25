@@ -14,7 +14,7 @@ requirements = ['pip', 'packaging']
 long_description = open('README.md', encoding="utf8").read()
 
 setuptools.setup(
-    name = 'nbclassic-collapsible-headings',
+    name = 'nbclassic-codefolding',
     version = '0.0.3',
     description = 'An nbextension that adds codefolding functionality from CodeMirror to a codecell',
     keywords = 'notebook',
@@ -27,7 +27,7 @@ setuptools.setup(
         'License :: ' + lic[1],
         'Natural Language :: ' + 'English',
     ] + ['Programming Language :: Python :: '+o for o in py_versions[py_versions.index(min_python):]],
-    url = 'https://github.com/AnswerDotAI/nbclassic-collapsible-headings',
+    url = 'https://github.com/AnswerDotAI/nbclassic-codefolding',
     include_package_data = True,
     data_files=[
         ("share/jupyter/nbextensions/codefolding", [ "static/blockcomment-fold.js", ]),
