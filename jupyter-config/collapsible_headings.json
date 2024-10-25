@@ -1,0 +1,6 @@
+{
+  "load_extensions": {
+    "codefolding/main": true,
+    "codefolding/edit": true
+  }
+}
